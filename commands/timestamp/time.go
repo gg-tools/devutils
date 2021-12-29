@@ -7,7 +7,6 @@ import (
 
 var Time = &cli.Command{
 	Name:    "time",
-	Aliases: []string{"t"},
 	Usage:   "covert timestamp to text",
 	UsageText: `time [timestamps...]
 

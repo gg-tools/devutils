@@ -34,7 +34,6 @@ var hexFlags = []cli.Flag{
 
 var Hex = &cli.Command{
 	Name:    "hex",
-	Aliases: []string{"h"},
 	Usage:   "convert number to hex",
 	UsageText: `hex [command] -[flag] [args...]
 hex 0b110

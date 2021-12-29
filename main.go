@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/gg-tools/devutils/commands/hashid"
 	"github.com/gg-tools/devutils/commands/hex"
 	"github.com/gg-tools/devutils/commands/timestamp"
 	"github.com/urfave/cli/v2"
@@ -19,6 +20,7 @@ func main() {
 		timestamp.Time,
 		timestamp.Timestamp,
 		hex.Hex,
+		hashid.HashID,
 	}
 	app.Flags = timestamp.Timestamp.Flags
 
